@@ -1,0 +1,151 @@
+<mjml>
+  <mj-head>
+    <mj-preview> this will be displayed in the inbox of the recipient 
+    </mj-preview>
+
+    
+    <mj-attributes>
+      
+      <mj-image padding="0px" />
+    	<mj-text font-size="16px" font-family="Verdana, Geneva, sans-serif" color="#000000" line-height="20px"/>
+      <mj-button background-color="black" color="#FFFFFF" font-size="12px" font-weight="600" text-align="left" text-decoration="none" text-transform="uppercase" border-radius="0px" target="_blank" padding-bottom="30px"/>
+      <mj-section padding="0px"  border="0px" background-color="#FFFFFF"/>
+    </mj-attributes>
+  
+      <mj-style>
+      @media (max-width:480px) {
+      .image-center {
+      width: 100% !important;
+      align: center;
+      }
+      .text-center{
+        text-align: center !important;
+      }
+      .text-padding{
+      padding: 0px !important;
+      }
+        }
+        
+      a{
+        color:#000000;
+        text-decoration:none;
+        
+        }
+    </mj-style>
+    
+  </mj-head>
+  
+  <mj-body>
+    <!-- logo START-->
+    <mj-section>
+    <mj-column>
+      <mj-image width="80px" height="80px" align="left" padding="0px 0px 10px 75px" href="#" src="../img/logo.jpg" alt="logo"/>
+    </mj-column>
+    </mj-section>
+    <!-- logo END-->  
+    
+    <!-- large image START -->
+    <mj-section>
+      <mj-column>
+        <mj-image  width="600px" height="auto" align="center" href="#" src="../img/essence.jpg" title="The Essence of Mosture" alt="Essence of Mosture" />
+      </mj-column>
+    </mj-section>
+    <!-- large image EMD -->
+    
+    <!-- info paragraph START -->
+        <mj-section>
+      <mj-column >
+        <mj-text padding="20px 75px"> Narwhal artisan fam drinking vinegar pour-over selfies kale chips. Master cleanse pok pok whatever, pop-up trust fund man braid affogato flannel.<br/><br/>
+Cray mlkshk bitters ethical, gochujang shoreditch bushwick. Af freegan readymade activated charcoal kickstarter palo santo blue bottle shabby chic microdosing. 
+<br/><br/>
+          Quinoa franzen art party, woke distillery you probably haven't heard of them mustache next level raw denim four dollar toast pug. Next level mustache gastropub taiyaki cliche waistcoat.
+       
+        </mj-text>   
+      </mj-column>
+    </mj-section>
+    <!-- info paragraph END -->
+    
+    <!-- products START -->
+     <mj-section background-color="#F8F8F8" padding="60px 0px 0px 0px" >
+      <mj-column>
+       <mj-image width="240px" height="260px" align="left" padding="0px 0px 30px" href="#" src="../img/cleanse01.jpg" alt="Cleanse"/>
+      </mj-column>
+      <mj-column>        
+        <mj-text padding="0px 14px 12px"> <b>products here</b> <br/> Fanny pack cloud bread taiyaki gentrify chartreuse tumblr swag typewriter kickstarter actually.
+<br/><br/> </mj-text>
+        <mj-button align="left" padding="0px 0px 0px 14px">shop now</mj-button>
+      </mj-column> 
+     </mj-section>
+    
+     <mj-section background-color="#F8F8F8" padding="0px">
+      <mj-column>
+        <mj-image width="240px" height="260px" align="left" padding="0px 0px 30px" href="#" src="../img/serum01.jpg" alt="Serum"/>
+      </mj-column>
+      <mj-column>        
+        <mj-text padding="0px 14px 12px"> <b>products here</b> <br/> Fanny pack cloud bread taiyaki gentrify chartreuse tumblr swag typewriter kickstarter actually.
+<br/><br/> </mj-text>
+        <mj-button align="left" padding="0px 0px 0px 14px">shop now</mj-button>
+      </mj-column> 
+     </mj-section>    
+    
+         <mj-section background-color="#F8F8F8" padding="0px 0px 30px 0px">
+      <mj-column>
+        <mj-image width="240px" height="260px" align="left" padding="0px 0px 30px" href="#" src="../img/mosterizer01.jpg" alt="Mosterizer"/>
+      </mj-column>
+      <mj-column>        
+        <mj-text padding="0px 14px 12px"> <b>products here</b> <br/> Fanny pack cloud bread taiyaki gentrify chartreuse tumblr swag typewriter kickstarter actually.
+<br/><br/> </mj-text>
+        <mj-button align="left" padding="0px 0px 0px 14px">shop now</mj-button>
+      </mj-column> 
+     </mj-section> 
+    
+    <!-- products ENK -->
+    
+    <!-- footer social START -->
+        <mj-section background-color="#000000" padding="12px 0px">
+        
+              <mj-column background-color="#000000" width="300px" padding="0px 15px">
+                
+        <mj-social icon-size="24px" mode="horizontal" padding="0px">
+          <mj-social-element name="facebook" background-color="#000000" href="http://facebook.com/">
+          </mj-social-element>
+          <mj-social-element background-color="#000000"  name="instagram" href="http://www.instagram.com/" padding="0px 20px">
+          </mj-social-element >
+                    <mj-social-element name="youtube" background-color="#000000" padding="0px 20px 0px 0px" href="http://www.youtube.com">
+          </mj-social-element>
+          <mj-social-element name="twitter" background-color="#000000" href="http://www.twitter.com/">
+          </mj-social-element>
+        </mj-social>          
+      </mj-column>
+          
+      <mj-column width="270px">
+        <mj-text align="center" color="#FFFFFF" font-size="11px" font-weight="bold">
+          H20SKINCARE.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer social END -->
+    
+    <!-- footer text START -->
+    <mj-section>
+      <mj-column>
+    <mj-text  font-size="10px" font-weight="bold" line-height="16px"><p class="text-center">
+      <a href="#"> Privacy Policy </a>| <a href="#">FAQ</a> | <a href="#">Terms</a> | <a href="#">Unsubscribe</a> | <a href="#">Manage Email Preferences</a> </p>
+      </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="8px" font-weight="light" line-height="12px"> <p class="text-center" >
+    H20 Skincare Inc.<br/>
+ 113 E 94th St, New York, New York, United States</p>
+      </mj-text>
+    </mj-column>
+    </mj-section>
+    
+    <!-- footer text END -->
+        
+  </mj-body>
+      
+</mjml>
